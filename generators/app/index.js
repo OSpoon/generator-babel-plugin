@@ -134,7 +134,7 @@ module.exports = class extends Generator {
   }
 
   default() {
-    this.composeWith(require.resolve('../fixture/'), { arguments: 'example' });
+    this.composeWith(require.resolve('../fixture/'), { arguments: ['example'] });
   }
 
   install() {
