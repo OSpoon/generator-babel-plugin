@@ -1,14 +1,14 @@
 {
-  "name": "generator-babel-plugin",
+  "name": "generator-babel-plugin-2",
   "version": "2.0.1",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "thejameskyle/generator-babel-plugin",
+  "repository": "OSpoon/generator-babel-plugin-2",
   "author": {
-    "name": "James Kyle",
-    "email": "me@thejameskyle.com",
-    "url": "https://github.com/thejameskyle"
+    "name": "OSpoon",
+    "email": "zxin088@gmail.com",
+    "url": "https://github.com/OSpoon"
   },
   "scripts": {
     "test": "jest --testPathIgnorePatterns /generators/"
