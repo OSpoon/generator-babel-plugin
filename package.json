@@ -1,10 +1,10 @@
 {
-  "name": "generator-babel-plugin-2",
+  "name": "generator-babel-plugin-x",
   "version": "2.0.1",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "OSpoon/generator-babel-plugin-2",
+  "repository": "OSpoon/generator-babel-plugin",
   "author": {
     "name": "OSpoon",
     "email": "zxin088@gmail.com",
