@@ -1,4 +1,4 @@
-# generator-babel-plugin-2
+# generator-babel-plugin-x
 
 基于Yeoman的Babel插件生成器。
 
@@ -10,19 +10,19 @@
 
 ```shell
 $ npm i -g yo
-$ npm i -g generator-babel-plugin-2
+$ npm i -g generator-babel-plugin-x
 ```
 
 **运行生成器**
 
 ```shell
-$ yo babel-plugin-2
+$ yo babel-plugin-x
 ```
 
 创建新的测试用例:
 
 ```shell
-$ yo babel-plugin-2:fixture name-of-fixture
+$ yo babel-plugin-x:fixture name-of-fixture
 ```
 
 要更详细地了解babel插件的开发，请参阅 [babel plugin handbook](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/zh-Hans/plugin-handbook.md)

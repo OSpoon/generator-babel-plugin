@@ -1,4 +1,4 @@
-# generator-babel-plugin-2
+# generator-babel-plugin-x
 
 Babel Plugin generator for Yeoman.
 
@@ -10,19 +10,19 @@ Babel Plugin generator for Yeoman.
 
 ```shell
 $ npm i -g yo
-$ npm i -g generator-babel-plugin-2
+$ npm i -g generator-babel-plugin-x
 ```
 
 **Run the generator**
 
 ```shell
-$ yo babel-plugin-2
+$ yo babel-plugin-x
 ```
 
 If you want to create additional fixtures in your tests:
 
 ```shell
-$ yo babel-plugin-2:fixture name-of-fixture
+$ yo babel-plugin-x:fixture name-of-fixture
 ```
 
 To understand babel plugin development in more detail see the [babel plugin handbook](https://github.com/thejameskyle/babel-handbook/blob/master/translations/en/plugin-handbook.md)
