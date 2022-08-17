@@ -19,7 +19,13 @@ $ npm i -g generator-babel-plugin-x
 $ yo babel-plugin-x
 ```
 
-创建新的测试用例:
+**运行生成器（v7风格）**
+
+```shell
+$ yo babel-plugin-x:v7
+```
+
+**创建新的测试用例**
 
 ```shell
 $ yo babel-plugin-x:fixture name-of-fixture

@@ -19,6 +19,12 @@ $ npm i -g generator-babel-plugin-x
 $ yo babel-plugin-x
 ```
 
+**Run the generator from v7**
+
+```shell
+$ yo babel-plugin-x:v7
+```
+
 If you want to create additional fixtures in your tests:
 
 ```shell
