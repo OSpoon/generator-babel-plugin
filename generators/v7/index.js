@@ -81,11 +81,12 @@ module.exports = class extends Generator {
         '@babel/core': '^7.10.5',
         '@babel/plugin-transform-runtime': '^7.10.5',
         '@babel/preset-env': '^7.10.4',
+        '@babel/preset-typescript': '^7.10.4',
         'jest': '^26.1.0'    
       },
       scripts: {
         'clean': 'rm -rf lib',
-        'build': 'babel src -d lib',
+        'build': 'babel src -d lib -x .ts',
         'test': 'jest __tests__/index.js',
         'test:watch': 'npm run test -- --watch',
         'prepublish': 'npm run clean && npm run build'
