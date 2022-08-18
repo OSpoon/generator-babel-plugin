@@ -82,10 +82,11 @@ module.exports = class extends Generator {
         '@babel/plugin-transform-runtime': '^7.10.5',
         '@babel/preset-env': '^7.10.4',
         '@babel/preset-typescript': '^7.10.4',
-        'jest': '^26.1.0'    
+        'jest': '^26.1.0',
+        'rimraf': '^3.0.2'    
       },
       scripts: {
-        'clean': 'rm -rf lib',
+        'clean': 'rimraf ./lib',
         'build': 'babel src -d lib -x .ts',
         'test': 'jest __tests__/index.js',
         'test:watch': 'npm run test -- --watch',
