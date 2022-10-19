@@ -25,6 +25,12 @@ $ yo babel-plugin-x
 $ yo babel-plugin-x:v7
 ```
 
+**运行生成器（v7-ts风格）**
+
+```shell
+$ yo babel-plugin-x:v7-ts
+```
+
 **创建新的测试用例**
 
 ```shell

@@ -25,6 +25,12 @@ $ yo babel-plugin-x
 $ yo babel-plugin-x:v7
 ```
 
+**Run the generator from v7-ts**
+
+```shell
+$ yo babel-plugin-x:v7-ts
+```
+
 If you want to create additional fixtures in your tests:
 
 ```shell
