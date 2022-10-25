@@ -86,6 +86,7 @@ module.exports = class extends Generator {
         '@types/babel__helper-plugin-utils': '^7.10.0',
         '@types/diff': '^5.0.2',
         'diff': '^5.1.0',
+        'diff-print': '0.0.1',
         'jest': '^26.1.0',
         'rimraf': '^3.0.2'    
       },
